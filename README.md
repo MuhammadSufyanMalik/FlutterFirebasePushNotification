@@ -1,16 +1,18 @@
-# flutter_notification_example
+#Flutter Notification Example
+This Flutter project serves as an example implementation for Firebase push notifications.
 
-A new Flutter project.
+Getting Started
+This project demonstrates how to integrate Firebase push notifications into a Flutter application. To get started, follow the instructions below:
 
-## Getting Started
+Firebase Integration:
 
-This project is a starting point for a Flutter application.
+Follow the Firebase integration instructions for Flutter provided on the Firebase website.
+As part of this integration, you will need to create a firebase_options.dart file. This file contains your Firebase authentication information.
+Required Files:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+firebase_options.dart: This file is essential for Firebase authentication and configuration. Ensure you create it following the Firebase integration instructions.
+google-services.json: This file is required for Android notification implementation. Make sure you include it in your project.
+##Note:
+firebase_options.dart: This file contains your Firebase authentication information and is necessary for the project's functionality.
+google-services.json: Ensure you have this file for Android notification implementation. It provides configuration details required by Firebase.
+By following these instructions, you'll be able to integrate Firebase push notifications into your Flutter application effectively.
