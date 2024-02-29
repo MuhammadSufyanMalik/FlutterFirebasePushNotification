@@ -1,4 +1,4 @@
-#Flutter Notification Example
+# Flutter Notification Example
 This Flutter project serves as an example implementation for Firebase push notifications.
 
 Getting Started
@@ -12,7 +12,7 @@ Required Files:
 
 firebase_options.dart: This file is essential for Firebase authentication and configuration. Ensure you create it following the Firebase integration instructions.
 google-services.json: This file is required for Android notification implementation. Make sure you include it in your project.
-##Note:
+## Note:
 firebase_options.dart: This file contains your Firebase authentication information and is necessary for the project's functionality.
 google-services.json: Ensure you have this file for Android notification implementation. It provides configuration details required by Firebase.
 By following these instructions, you'll be able to integrate Firebase push notifications into your Flutter application effectively.
